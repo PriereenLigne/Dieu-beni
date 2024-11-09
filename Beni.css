@@ -1,0 +1,241 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #4CAF;
+  color: #000080;
+  padding: 25rem;
+  text-align: center;
+/* Styles pour l'en-tête */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px;
+}
+/* Cibler les liens de la navigation */
+nav a {
+  font-weight: bold;  /* Met le texte en gras */
+}
+nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+}
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+.temoignages-section {
+  background-color: #f4f4f4;
+  padding: 10px;
+  text-align: center;
+}
+.temoignages-container {
+  display: flex;
+  flex-direction: column; /* Arrange les témoignages et le formulaire en colonne */
+  align-items: center; /* Centre le contenu horizontalement */
+  margin-top: 50px;
+  gap: 20px; /* Espace entre les témoignages et le formulaire */
+}
+
+.temoignages-container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+
+.temoignage {
+  width: 80%;
+  background-color: white;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.temoignage-text {
+  font-size: 1rem;
+  font-style: italic;
+  margin-bottom: 10px;
+}
+
+.client-name {
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+/* Formulaire de témoignage */
+.temoignage-form {
+  margin-top: 40px;
+  background-color: #ffffff;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.temoignage-form h3 {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.temoignage-form textarea {
+  width: 80%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.temoignage-form button {
+  padding: 10px 20px;
+  background-color: #FFD700;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 1rem;
+}
+/* Styles pour le logo */
+.logo {
+  width: 300px;  /* Largeur du logo */
+  height: 500px;  /* La hauteur s'ajustera proportionnellement */
+  max-height: 150px;  /* Limite la hauteur maximale du logo */
+  margin-left: 0;  /* Retire toute marge gauche */
+  margin-right: 0; /* Retire toute marge droite */
+}
+
+/* Optionnel : Si vous voulez ajouter de l'espace entre le logo et le texte du header */
+header .logo + h1 {
+  margin-left: 20px;  /* Espacement entre le logo et le titre */
+}
+
+#accueil {
+  padding: 2rem;
+  background-color: #f9f9f9;
+  color: #333;
+  text-align: center;
+}
+
+.accueil-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+#accueil h2 {
+  font-size: 2rem;
+  color: #4CAF50; /* Ajustez la couleur selon votre palette */
+  margin-bottom: 1rem;
+}
+
+#accueil p {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+nav a {
+  color: white;
+  margin: 0 1rem;
+  text-decoration: none;
+}
+/* Styles pour le texte frappant */
+.highlight {
+  font-size: 1.5rem; /* Taille de police plus grande */
+  color: #FFA500; /* Orange */
+  font-weight: bold; /* Mettre en gras */
+}
+
+.produit-detail {
+  padding: 2rem;
+  
+}
+
+.media {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.produit-image
+{width: 320px; /* Ajustez selon la taille souhaitée */
+  height: auto;
+  margin-top: 1rem; /* Place le logo à gauche */,}
+  .center-text {
+  text-align: center;  /* Centre le texte horizontalement */
+  margin-bottom: 10px;  /* Un peu d'espace sous le texte, si nécessaire */
+}
+.product-name {
+  color: #ff6600; /* Choisissez ici la couleur désirée */
+  font-weight: bold; /* Rendre le texte en gras */
+  font-size: 1.5rem; /* Taille plus grande pour attirer l'œil */
+  text-align: center; /* Centrer le texte si souhaité */
+  margin-top: 10px; /* Ajuster le marges si besoin */
+}
+  .produit-video, .produit-audio 
+  {
+  margin-top: 1rem;
+}
+
+.caracteristiques {
+  margin-top: 1rem}
+  .center-text {
+  text-align: center;  /* Centre le texte horizontalement */
+  margin-bottom: 10px;  /* Un peu d'espace sous le texte, si nécessaire */
+}
+.whatsapp-link {
+  text-align: center;  /* Centre le texte */
+  display: block; /* Transforme le lien en bloc pour qu'il prenne toute la largeur disponible */
+  padding: 10px;
+  background-color: #25d366;
+  color: white;
+  border-radius: 5px;
+  font-size: 16px;
+  text-decoration: none; /* Enlève le soulignement du lien */
+}
+footer {
+  background-color: #f1f1f1;
+  padding: 1rem;
+  text-align: center;
+}
+/* Section Contact */
+#contact {
+  background-color: #f4f4f4;
+  padding: 2rem;
+  text-align: center;
+}
+
+#contact h2 {
+  font-size: 2rem;
+  color: #4CAF50;
+  margin-bottom: 1rem;
+}
+
+#contact ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+#contact li {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+#contact a {
+  color: #000080; /* Couleur du lien email */
+  text-decoration: none;
+}
+/* Initial state for animation */
+.animated-section {
+  opacity: 0; /* Rend invisible avant l'animation */
+  transform: translateX(100px); /* Décale légèrement vers la droite */
+  transition: opacity 1s ease, transform 1s ease;
+}
+
+/* Animation active */
+.animated-section.visible {
+  opacity: 1; /* Rend visible */
+  transform: translateX(0); /* Remet la position normale */
+}
+/* Style pour le défilement fluide */
+html {
+  scroll-behavior: smooth;
+}
